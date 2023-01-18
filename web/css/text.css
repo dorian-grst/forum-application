@@ -1,0 +1,15 @@
+label {
+    color: #616161;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.section--title {
+    font-weight: 700;
+    font-size: 16px;
+}

@@ -1,0 +1,47 @@
+.home .title{
+    font-size: 25px;
+    gap: 15px;
+}
+
+.home .text--author {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.home .text--resume{
+    color: #616161;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.home .know--more{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #BDC6F3;
+    width: 100%;
+    color: #3D5AF1;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.home .author--text {
+    margin-bottom: 5px;
+}
+
+.home .counter{
+    display: flex;
+    min-width: 530px;
+    align-items: center;
+    height: auto;
+    gap:5px;
+    justify-content: center;
+    padding: 20px 20px 0 20px;
+    color: #BBBBBB;
+}

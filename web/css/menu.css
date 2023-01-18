@@ -1,0 +1,29 @@
+.menu{
+    position:fixed;
+    gap:3em;
+    left: 2.5%;
+    top: 20%;
+    color :#616161;
+    z-index: 2;
+}
+
+.menu--row{
+    gap:1em;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.menu--row--text{
+    color:#616161;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu--row--text--active{
+    color:#616161;
+    font-size: 25px;
+    font-weight: 700;
+}
+

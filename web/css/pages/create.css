@@ -1,0 +1,285 @@
+/* CREATE QUESTION CSS */
+
+.create--head {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create--head--title {
+    gap: 10px;
+    align-items: center;
+}
+
+.create--head--title--image{
+    width: 25px;
+    height: 25px;
+}
+
+.create--head--visibility {
+    gap: 5px;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.create--head--visibility--value {
+    cursor: pointer;
+    color: #3D5AF1;
+    font-weight: 600;
+    align-items: center;
+    width: 72px;
+    justify-content: space-between;
+}
+
+.create--votants{
+    align-items: center;
+    position: relative;
+}
+
+.create--infos {
+    gap: 10px;
+}
+
+.create--infos--metadata{
+    width: 100%;
+    gap: 20px;
+}
+
+.create--infos--responsables {
+    width: 100%;
+    position: relative;
+}
+
+.create--date--inputs {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.create--date--input--open, .create--date--input--close{
+    width: 50%;
+}
+
+.create--date--input--close{
+    position:relative;
+    left:10px;
+}
+
+.create--description--textarea{
+    width: 98.5%;
+}
+
+.create--section--container {
+    gap: 20px;
+}
+
+.create--section--textarea{
+    width: 98.5%;
+}
+
+.create--submit--button {
+    position: fixed;
+    top: 122px;
+    right: 0px;
+    background-color: #BDC6F3;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    animation: ease-in-out;
+    transition: 1s;
+}
+
+.create--infos--tags--list {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 25px;
+    max-height: 25px;
+    overflow-y: hidden;
+}
+
+.create--submit--button.not-valid {
+    cursor: not-allowed;
+}
+
+.create--submit--button.valid {
+    background-color: #4E5EE4;
+    cursor: pointer;
+}
+
+.create--add--section {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #BDC6F3;
+    width: 100%;
+    color: #3D5AF1;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 0px 5px 5px;
+    justify-content: center;
+}
+
+.create--description--title--image, .creation--section--title--image{
+    width: 20px;
+    height: 20px;
+}
+
+.create--dates--title--image{
+    width: 15px;
+    height: 15px;
+}
+
+.create--dates--title, .create--description--title, .creation--section--title{
+    align-items: center;
+    gap:5px;
+}
+
+.create--infos--tags {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .create--submit--button {
+        top: auto;
+        bottom: 0px;
+        left: auto;
+        right: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* SELECT VOTANTS CSS */
+.select--head--title{
+    gap: 10px;
+    align-items: center;
+
+}
+.select--head--research{
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.select--head--research--searchbar{
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    background: #F2F3F3;
+    align-items: center;
+    padding: 0 5px;
+    gap: 5px;
+}
+
+.select--head--research--icon{
+    height: 12.5px;
+    width: 12.5px;
+}
+
+.select--head--research--input{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background: #F2F3F3;
+    font-size: 12.5px;
+}
+
+.select--head--research--input:focus{
+    outline: none;
+}
+
+.select--head--title{
+    align-items: center;
+}
+
+.select--head--title--image{
+    width: 25px;
+    height: 25px;
+}
+
+.select--head--exemple--pseudo{
+    width: 50%;
+    align-items: center;
+}
+
+.select--head--exemple--votant, .select--head--exemple--responsable{
+    width: 25%;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.select--head--members--pseudo{
+    width: 50%;
+    align-items: center;
+}
+
+.select--head--members--firstdiv, .select--head--members--seconddiv{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}   
+
+.select--head--exemple--votant--image, .select--head--exemple--responsable--image, .select--head--members--firstimage, .select--head--members--secondimage{
+    width: 15px;
+    height: 15px;
+}
+
+.select--spacebetween {
+    justify-content: space-between;
+}
+
+input:focus, textarea:focus {
+    outline: solid 1px #6419C5;
+}
+
+.add--svg {
+    cursor:pointer;
+}
+
+.add--svg.selected > path {
+    stroke: #3D5AF1;
+}
+
+/* .date-input::after {
+    content: "Coucou";
+    color: red;
+    position: absolute;
+} */
+
+#popup {
+    position: absolute;
+    color: black;
+    background-color: white;
+    z-index: 4;
+    cursor: default;
+    width: 570px;
+    left: calc(50% - 285px);
+    top: calc(100% - 30px);
+    opacity: 0;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+#close-voters-adding {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.create--infos--responsables--list {
+    position: relative;
+}

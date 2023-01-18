@@ -1,0 +1,100 @@
+#tag-management {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -10%;
+    width: 120%;
+    max-width: 120%;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 5;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity 0.2s ease-in-out;
+}
+
+#open-tag-management {
+    outline: 1px solid #51ECC7;
+}
+
+.tag-management--tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 6.2em;
+}
+
+.tag-management--tag-input {
+    width: 70%;
+    padding: 0 10px;
+    background-color: rgba(217,217,217,0.3);
+    border-radius: 2.5px;
+    font-weight: 600;
+    padding:5px;
+}
+
+.tag-management--add-tag {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tag-management--add-tag .rectangle--green {
+    outline: 1px solid #51ECC7;
+}
+
+#tags--count {
+    display: none;
+}
+
+.tag-management--close-button {
+    height: 25px;
+    width: 25px;
+}
+
+#close-tag-management {
+    cursor: pointer;
+}
+
+#tag-preview--list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 25px;
+    width: 75%;
+    overflow: hidden;
+}
+
+.tag-management--close-button * {
+    fill: rgba(0, 0, 0, 0);
+}
+
+.tag-management--top {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tag-example {
+    color: rgba(0, 0, 0, 0.488);
+    background-color: rgba(217,217,217,0.3);
+}
+
+.tag-rectangle {
+    cursor: pointer;
+}
+
+.tag-rectangle:hover {
+    background-color: rgba(241, 61, 61, 0.1);
+    color: #f13d3d;
+}

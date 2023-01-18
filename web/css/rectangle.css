@@ -1,0 +1,60 @@
+.rectangle{
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2.5px 10px;
+    border-radius: 2.5px;
+    margin: 2.5px;
+    text-align: center;
+    border: none;
+    position: relative;
+}
+
+.carre{
+    width: 35px;
+    height:35px;
+    background-color: rgba(217,217,217,0.3);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.rectangle--3--points{
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2.5px 2.5px;
+    margin: 2.5px;
+    border-radius: 2.5px;
+    border: none;
+}
+
+.rectangle--blue{
+    background-color: rgba(61, 90, 241, 0.10);
+    color: #3D5AF1;
+}
+
+.rectangle--green{
+    background-color: rgba(81, 236, 199, 0.10);
+    color: #51ECC7;
+}
+
+.rectangle--purple{
+    background-color: rgba(100, 25, 197, 0.10);
+    color: #6419C5;
+}
+
+.rectangle--orange{
+    background-color: rgba(241, 147, 61, 0.1);
+    color: #F1933D;
+}
+
+.reinstate {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    filter: none;
+    background-color: #51ECC7;
+}

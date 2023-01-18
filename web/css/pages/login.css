@@ -1,0 +1,89 @@
+.login {
+    width: 100%;
+    height: calc(100% - 80px);
+    justify-content: center;
+    align-items: center;
+}
+
+.login > .wrapper {
+    width: 60%;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.login label {
+    color: #616161;
+    font-size: 16px;
+}
+
+.login .input--wrapper {
+    width: 100%;
+    gap: 5px;
+}
+
+.login input {
+    color: #616161;
+    padding: 10px;
+    background: rgba(217, 217, 217, 0.3);
+    border-radius: 4px;
+}
+
+.login .signup {
+    position: relative;
+    padding: 20px;
+    gap: 20px;
+    width: 60%;
+}
+
+.login .signin {
+    position: relative;
+    padding: 20px;
+    gap: 20px;
+    width: 40%;
+}
+
+.login form {
+    gap: 20px;
+}
+
+.login .title {
+    gap: 10px;
+    align-items: center;
+}
+
+.login .icon--wrapper {
+    background: rgba(217, 217, 217, 0.3);
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.login button {
+    margin: auto;
+    background: #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.login .inputs {
+    gap: 10px;
+}
+
+.login .condition {
+    gap: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.login .condition .indicator {
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+    background-color: red;
+}

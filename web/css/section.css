@@ -1,0 +1,50 @@
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-section {
+    position: relative;
+    margin-top: 40px;
+}
+
+.new-section::before {
+    content: "";
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: -20px;
+}
+
+.delete-section {
+    zoom: 0.45;
+    fill: rgba(217,217,217,1);
+}
+
+.delete-section:hover {
+    cursor: pointer;
+    fill:#F1933D;
+}
+
+.delete-section-span {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.delete-section-span:hover::before {
+    content: "Supprimer la section";
+    color: #F1933D;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    top: 0;
+    left: -120px;
+    z-index: -3;
+}
