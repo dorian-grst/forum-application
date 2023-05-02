@@ -1,18 +1,18 @@
 ### 📚DORIAN GRASSET - CLÉMENT TRENS - TANGUY MACE - ANAIS ANDRÉ - NATHAN BRETON📚
 
-**SAE APPLICATION DE DÉCISION COLLECTIVE** 🏷️
+**SAE COLLECTIVE DECISION-MAKING APPLICATION** 🏷️
 
-Vous trouverez dans ce repository notre travail sur la SAE Application de décision collective [2ère année] dans lequel nous devions faire une application permettant à différents utilisateurs de poser une question et de recevoir des réponses. Tout ceci était accompagné d'un système de vote et de différents rôles. 
+In this repository, you will find our work on the Collective Decision-Making Application SAE [2nd year], in which we had to create an application that allows different users to ask a question and receive answers, all accompanied by a voting system and different roles.
 
 # Installation
 
-1. Téléchargez ou clonez le répertoire de l'application sur votre ordinateur local.
-2. Assurez-vous d'avoir une version à jour de PHP installée sur votre ordinateur. Si ce n'est pas le cas, vous pouvez télécharger la dernière version à partir du site officiel de PHP (https://windows.php.net/download/).
-3. Ouvrez un terminal et accédez au répertoire de l'application.
-4. Exécutez la commande `composer install` pour installer toutes les dépendances requises pour l'application.
+1. Download or clone the application repository to your local computer.
+2. Make sure you have an up-to-date version of PHP installed on your computer. If not, you can download the latest version from the official PHP website (https://windows.php.net/download/).
+3. Open a terminal and navigate to the application directory.
+4. Run the command `composer install` to install all the required dependencies for the application.
 
-# Lancement
+# Launch
 
-1. Assurez-vous d'être dans le répertoire de l'application dans le terminal.
-2. Exécutez la commande `php -S localhost:8000` pour lancer le serveur PHP en local.
-3. Ouvrez votre navigateur web et accédez à l'adresse `http://localhost:8000` pour accéder à l'application.
+1. Make sure you are in the application directory in the terminal.
+2. Run the command `php -S localhost:8000` to launch the local PHP server.
+3. Open your web browser and go to the address `http://localhost:8000` to access the application.
